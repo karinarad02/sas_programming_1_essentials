@@ -1,0 +1,14 @@
+Learning how to find answers in the SAS documentation is important for you as a programmer. Try it now.
+
+Go to support.sas.com/documentation.
+
+Click SAS Programming: SAS 9.4 and Viya 3.5.
+
+In the contents on the left, expand Syntax Quick Links, and Quick Links for SAS Procedures, and then click SAS Procedures by Name.
+
+Find the PRINT procedure. Examine the syntax and table of procedure tasks and examples.
+
+
+Which statement in PROC PRINT selects variables that appear in the report and determines their order?
+
+The VAR statement
