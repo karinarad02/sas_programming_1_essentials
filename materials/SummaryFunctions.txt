@@ -1,0 +1,13 @@
+SAS has a collection of summary functions that calculate summary statistics. Each of these functions can have an unlimited number of arguments, and each argument is either a numeric constant or numeric column in the data. The function calculates the summary statistic from the values of the arguments for each row in the data.
+
+For these summary functions, if any of the input values are missing, the missing value or values are ignored, and the calculation is based on the known values.
+
+Common Numeric Functions
+SUM (num1, num2, ...)
+MEAN (num1, num2, ...)
+MEDIAN (num1, num2, ...)
+RANGE (num1, num2, ...)
+MIN (num1, num2, ...)
+MAX (num1, num2, ...)
+N (num1, num2, ...)
+NMISS (num1, num2, ...)

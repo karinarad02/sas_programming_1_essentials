@@ -1,0 +1,8 @@
+SAS has many functions you can use to manipulate character columns. The arguments include one or more character columns in your data. These are a few of the many character functions you can use:
+
+Character Function			What it Does
+UPCASE (char)
+LOWCASE(char)				Changes letters in a character string to uppercase or lowercase
+PROPCASE (char, <delimiters>)		Changes the first letter of each word to uppercase and other letters to lowercase
+CATS (char1, char2, ...)		Concatenates character strings and removes leading and trailing blanks from each argument
+SUBSTR (char, position, <length>)	Returns a substring from a character string

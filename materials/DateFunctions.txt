@@ -1,0 +1,17 @@
+SAS date functions are incredibly helpful for creating and manipulating SAS dates.
+
+These functions extract information from the SAS date column or value provided in the argument:
+
+Date Function		What it Does
+MONTH (SAS-date)	Returns a number from 1 through 12 that represents the month
+YEAR (SAS-date)		Returns the four-digit year
+DAY (SAS-date)		Returns a number from 1 through 31 that represents the day of the month
+WEEKDAY (SAS-date)	Returns a number from 1 through 7 that represents the day of the week (Sunday=1)
+QTR (SAS-date)		Returns a number from 1 through 4 that represents the quarter
+
+These functions enable you to create SAS date values from the arguments.
+
+Date Function				What it Does
+TODAY ()				Returns the current date as a numeric SAS date value (no argument is required because the function reads the system clock)
+MDY (month, day, year)			Returns a SAS date value from numeric month, day, and year values
+YRDIF (startdate, enddate, 'AGE')	Calculates a precise age between two dates

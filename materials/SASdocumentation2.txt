@@ -1,0 +1,11 @@
+Go to support.sas.com/documentation.
+
+Look up the Zw.d format.
+
+What does the format do?
+
+The format displays standard numeric data with leading 0s.
+
+Format Name	Example Value	Format Applied	Formatted value
+Zw.d		1350		Z8.		00001350
+You can find this information by typing Zw.d in the search box and selecting the first link to Zw.d Format.
